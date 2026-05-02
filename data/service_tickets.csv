@@ -1,0 +1,6 @@
+ticket_id,issue_type,assigned_team,priority,status,created_date
+T001,medicine_delivery,medical,high,pending,2026-05-01
+T002,food_packet_delivery,food,medium,in_progress,2026-05-01
+T003,student_material_request,education,low,resolved,2026-05-02
+T004,temporary_shelter_request,shelter,high,pending,2026-05-02
+T005,donation_receipt_issue,finance,medium,pending,2026-05-02

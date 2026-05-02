@@ -1,0 +1,6 @@
+request_id,name,area,category,urgency,status,created_date
+HR001,Aman Village Center,Gurdaspur,medical,high,pending,2026-05-01
+HR002,Ravi Community Block,Batala,food,medium,in_progress,2026-05-01
+HR003,Simran Help Desk,Amritsar,education,low,resolved,2026-05-02
+HR004,Kiran Rural Point,Dera Baba Nanak,medical,high,pending,2026-05-02
+HR005,Mehak Support Unit,Qadian,shelter,medium,pending,2026-05-02
