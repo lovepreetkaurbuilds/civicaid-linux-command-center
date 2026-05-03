@@ -1,0 +1,13 @@
+CivicAid Cron Job Report
+Generated on: Sun May  3 17:05:59 UTC 2026
+
+Current scheduled cron jobs:
+0 9 * * * /home/lovepreet/projects/civicaid-linux-command-center/scripts/run_daily_report_cron.sh
+0 22 * * * /home/lovepreet/projects/civicaid-linux-command-center/scripts/run_backup_cron.sh
+
+Cron wrapper scripts:
+- scripts/run_daily_report_cron.sh
+- scripts/run_backup_cron.sh
+
+Cron log file:
+- logs/cron.log

@@ -1,0 +1,14 @@
+----------------------------------------
+2026-05-03 16:57:11 [cron] Starting daily report job
+2026-05-03 16:57:11 [generate_report] Starting daily report generation.
+2026-05-03 16:57:11 [generate_report] High urgency requests added to report.
+2026-05-03 16:57:11 [generate_report] Pending service tickets added to report.
+2026-05-03 16:57:11 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 16:57:11 [cron] Daily report job completed
+----------------------------------------
+2026-05-03 16:57:44 [cron] Starting backup job
+2026-05-03 16:57:44 [backup_data] Starting compressed backup.
+2026-05-03 16:57:44 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_165744.tar.gz
+[OK] Backup archive created: backups/civicaid_backup_20260503_165744.tar.gz
+[OK] Backup manifest created: reports/backup_manifest_20260503_165744.txt
+2026-05-03 16:57:44 [cron] Backup job completed
