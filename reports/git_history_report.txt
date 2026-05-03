@@ -1,0 +1,10 @@
+* c2fcd1c (HEAD -> main) Add Python workflow and tests for urgent requests
+* ee01664 Document package management and add tool check script
+* 99126ee Practice Linux process management and monitoring
+* c62c145 Document CivicAid users groups and access roles
+* 1d1ebf1 Configure CivicAid permissions and document ownership basics
+* 7bf0b62 Document Linux filesystem structure for CivicAid deployment
+* 98502e8 Generate CivicAid reports using pipes and redirection
+* ad207c6 Practice Linux text processing on CivicAid data
+* b855e64 Add sample CivicAid data and daily report
+* d345efb Create initial CivicAid Linux project structure
