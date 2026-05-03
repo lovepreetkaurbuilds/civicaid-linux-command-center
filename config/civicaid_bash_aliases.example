@@ -1,0 +1,31 @@
+# CivicAid Bash Customization Example
+
+export CIVICAID_HOME="$HOME/projects/civicaid-linux-command-center"
+
+alias civi='cd "$CIVICAID_HOME"'
+alias civistatus='cd "$CIVICAID_HOME" && git status'
+alias civitree='cd "$CIVICAID_HOME" && tree -L 2'
+alias civireport='cd "$CIVICAID_HOME" && ./scripts/generate_report.sh'
+alias civihealth='cd "$CIVICAID_HOME" && ./scripts/run_health_check.sh'
+alias civibackup='cd "$CIVICAID_HOME" && ./scripts/backup_data.sh'
+alias civilogs='cd "$CIVICAID_HOME" && tail -n 30 logs/script_activity.log'
+alias civilive='cd "$CIVICAID_HOME" && tail -f logs/script_activity.log'
+alias civisummary='cd "$CIVICAID_HOME" && ./scripts/generate_summary_reports.sh'
+alias civisecurity='cd "$CIVICAID_HOME" && ./scripts/security_audit.sh'
+alias civicmd='cd "$CIVICAID_HOME" && ./scripts/civicaid_command_center.sh'
+
+civisearch() {
+    cd "$CIVICAID_HOME" || return
+    ./scripts/search_requests.sh "$@"
+}
+
+civiprompt_on() {
+    export CIVI_OLD_PS1="$PS1"
+    export PS1="[CivicAid] \u@\h:\w\$ "
+}
+
+civiprompt_off() {
+    if [ -n "${CIVI_OLD_PS1:-}" ]; then
+        export PS1="$CIVI_OLD_PS1"
+    fi
+}

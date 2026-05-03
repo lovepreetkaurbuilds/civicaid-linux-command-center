@@ -86,3 +86,11 @@
 2026-05-03 18:07:48 [generate_report] [OK] Report generated: reports/daily_report.txt
 2026-05-03 18:07:48 [health_check] Starting CivicAid health check.
 2026-05-03 18:07:48 [health_check] [OK] Health check passed.
+2026-05-03 18:17:44 [generate_report] Starting daily report generation.
+2026-05-03 18:17:44 [generate_report] High urgency requests added to report.
+2026-05-03 18:17:44 [generate_report] Pending service tickets added to report.
+2026-05-03 18:17:44 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 18:17:44 [health_check] Starting CivicAid health check.
+2026-05-03 18:17:44 [health_check] [OK] Health check passed.
+2026-05-03 18:17:44 [search_requests] Searching urgent help requests.
+2026-05-03 18:17:44 [search_requests] [OK] Search completed.

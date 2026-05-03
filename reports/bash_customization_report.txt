@@ -1,0 +1,16 @@
+CivicAid Bash Customization Report
+Generated on: Sun May  3 18:18:37 UTC 2026
+
+Local customization file:
+~/.civicaid_aliases
+
+GitHub-safe example:
+config/civicaid_bash_aliases.example
+
+Tested shortcuts:
+- civi
+- civistatus
+- civireport
+- civihealth
+- civisearch urgent
+- civiprompt_on / civiprompt_off
