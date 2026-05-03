@@ -1,0 +1,42 @@
+CivicAid Command Center Integration Report
+Generated on: Sun May  3 18:00:14 UTC 2026
+
+Main script:
+- scripts/civicaid_command_center.sh
+
+Integrated operations:
+- Daily report generation
+- Health check
+- Help request search
+- Compressed backup
+- Log monitoring
+- Advanced summary reports
+- Table reports
+- Log summary
+- Local server health check
+- Remote deployment simulation
+- Service management simulation
+- Security audit
+- Git status
+
+Latest command center log:
+2026-05-03 17:58:49 [command_center] Completed: Search urgent help requests
+2026-05-03 17:58:51 [command_center] Started: Search pending help requests
+2026-05-03 17:58:51 [command_center] Completed: Search pending help requests
+2026-05-03 17:58:53 [command_center] Started: Create compressed backup
+2026-05-03 17:58:53 [command_center] Completed: Create compressed backup
+2026-05-03 17:58:55 [command_center] Started: Monitor logs
+2026-05-03 17:58:55 [command_center] Completed: Monitor logs
+2026-05-03 17:58:57 [command_center] Started: Generate advanced summary reports
+2026-05-03 17:58:57 [command_center] Completed: Generate advanced summary reports
+2026-05-03 17:58:59 [command_center] Started: Generate log summary
+2026-05-03 17:58:59 [command_center] Completed: Generate log summary
+2026-05-03 17:59:05 [command_center] Started: Generate log summary
+2026-05-03 17:59:05 [command_center] Completed: Generate log summary
+2026-05-03 17:59:13 [command_center] Started: Run security audit
+2026-05-03 17:59:13 [command_center] Completed: Run security audit
+2026-05-03 17:59:17 [command_center] Started: Show Git status
+2026-05-03 17:59:17 [command_center] Completed: Show Git status
+2026-05-03 17:59:34 [command_center] Started: Check local server health
+2026-05-03 17:59:34 [command_center] Failed: Check local server health
+2026-05-03 17:59:54 [command_center] Exited command center.

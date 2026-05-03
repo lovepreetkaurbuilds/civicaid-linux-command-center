@@ -18,3 +18,10 @@ This project demonstrates beginner-to-advanced Linux skills through real command
 - Server-style operations thinking
 
 All data used in this project is fake/sample data only.
+
+## CivicAid Command Center
+
+Run the main Linux operations menu:
+
+```bash
+./scripts/civicaid_command_center.sh

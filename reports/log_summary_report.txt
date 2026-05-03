@@ -1,15 +1,16 @@
 CivicAid Log Summary Report
-Generated on: Sun May  3 17:56:00 UTC 2026
+Generated on: Sun May  3 17:59:05 UTC 2026
 ===========================
 
 1. Log files:
-total 24K
+total 28K
 -rw-r--r-- 1 lovepreet lovepreet    0 May  2 09:32 access.log
 -rw-r--r-- 1 lovepreet lovepreet 2.1K May  3 12:37 app.log
+-rw-r--r-- 1 lovepreet lovepreet 1.4K May  3 17:59 command_center.log
 -rw-r--r-- 1 lovepreet lovepreet  923 May  3 16:57 cron.log
 -rw-r--r-- 1 lovepreet lovepreet  244 May  3 17:42 error.log
 -rw-r--r-- 1 lovepreet lovepreet    0 May  3 12:38 fake_worker.pid
--rw-r--r-- 1 lovepreet lovepreet 4.4K May  3 17:45 script_activity.log
+-rw-r--r-- 1 lovepreet lovepreet 5.6K May  3 17:58 script_activity.log
 -rw-r--r-- 1 lovepreet lovepreet  561 May  3 17:51 service_simulation.log
 
 2. ERROR count:
@@ -19,7 +20,7 @@ total 24K
 1
 
 4. OK messages count:
-29
+35
 
 5. Latest ERROR entries:
 logs/error.log:2026-05-03 18:30:00 [ERROR] Failed to process donation record D009

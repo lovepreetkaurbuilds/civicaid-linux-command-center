@@ -1,5 +1,5 @@
 CivicAid Operations Summary Report
-Generated on: Sun May  3 17:56:00 UTC 2026
+Generated on: Sun May  3 18:02:53 UTC 2026
 ==================================
 
 1. Total Records
@@ -45,16 +45,16 @@ T005 donation_receipt_issue finance medium pending
 
 8. Recent Script Activity
 -------------------------
-2026-05-03 16:57:11 [generate_report] Pending service tickets added to report.
-2026-05-03 16:57:11 [generate_report] [OK] Report generated: reports/daily_report.txt
-2026-05-03 16:57:44 [backup_data] Starting compressed backup.
-2026-05-03 16:57:44 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_165744.tar.gz
-2026-05-03 17:42:27 [generate_report] Starting daily report generation.
-2026-05-03 17:42:27 [generate_report] High urgency requests added to report.
-2026-05-03 17:42:27 [generate_report] Pending service tickets added to report.
-2026-05-03 17:42:27 [generate_report] [OK] Report generated: reports/daily_report.txt
-2026-05-03 17:45:40 [health_check] Starting CivicAid health check.
-2026-05-03 17:45:40 [health_check] [OK] Health check passed.
+2026-05-03 17:58:46 [health_check] Starting CivicAid health check.
+2026-05-03 17:58:46 [health_check] [OK] Health check passed.
+2026-05-03 17:58:49 [search_requests] Searching urgent help requests.
+2026-05-03 17:58:49 [search_requests] [OK] Search completed.
+2026-05-03 17:58:51 [search_requests] Searching pending help requests.
+2026-05-03 17:58:51 [search_requests] [OK] Search completed.
+2026-05-03 17:58:53 [backup_data] Starting compressed backup.
+2026-05-03 17:58:53 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_175853.tar.gz
+2026-05-03 18:02:53 [health_check] Starting CivicAid health check.
+2026-05-03 18:02:53 [health_check] [OK] Health check passed.
 
 9. Error Summary
 ----------------

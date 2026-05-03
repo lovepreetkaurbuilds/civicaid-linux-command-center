@@ -1,22 +1,27 @@
 CivicAid Security Audit Report
-Generated on: Sun May  3 17:49:40 UTC 2026
+Generated on: Sun May  3 18:02:53 UTC 2026
 
 1. Checking Git ignore rules:
 [OK] config/app.env is ignored
 [OK] .venv/ is ignored
 
 2. Checking config permissions:
-total 12
+total 16
 -rw-r--r-- 1 lovepreet lovepreet 312 May  3 11:39 access_roles.csv
 -rw------- 1 lovepreet lovepreet 274 May  3 16:06 app.env
 -rw-r--r-- 1 lovepreet lovepreet 305 May  3 16:06 app.env.example
+-rw-r--r-- 1 lovepreet lovepreet 315 May  3 17:51 civicaid.service.example
 
 3. Checking script permissions:
 -rwxr-xr-x 1 lovepreet lovepreet  365 May  3 16:47 scripts/archive_logs.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1069 May  3 16:46 scripts/backup_data.sh
 -rwxr-xr-x 1 lovepreet lovepreet  501 May  3 17:22 scripts/check_server_health.sh
 -rwxr-xr-x 1 lovepreet lovepreet  332 May  3 12:53 scripts/check_tools.sh
+-rwxr-xr-x 1 lovepreet lovepreet 3528 May  3 17:58 scripts/civicaid_command_center.sh
+-rwxr-xr-x 1 lovepreet lovepreet  907 May  3 17:55 scripts/generate_log_summary.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1846 May  3 16:34 scripts/generate_report.sh
+-rwxr-xr-x 1 lovepreet lovepreet 2335 May  3 17:54 scripts/generate_summary_reports.sh
+-rwxr-xr-x 1 lovepreet lovepreet  321 May  3 17:54 scripts/generate_table_reports.sh
 -rwxr-xr-x 1 lovepreet lovepreet  389 May  3 16:13 scripts/load_env.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1209 May  3 17:44 scripts/monitor_logs.sh
 -rwxr-xr-x 1 lovepreet lovepreet  422 May  3 16:57 scripts/run_backup_cron.sh
@@ -25,6 +30,7 @@ total 12
 -rwxr-xr-x 1 lovepreet lovepreet 1903 May  3 16:36 scripts/search_requests.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1376 May  3 17:48 scripts/security_audit.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1421 May  3 17:39 scripts/simulate_remote_deploy.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1640 May  3 17:51 scripts/simulate_service_management.sh
 
 4. Searching for risky secret keywords:
 ./scripts/simulate_remote_deploy.sh:36:CIVICAID_FAKE_API_KEY=server_fake_key_only

@@ -1,16 +1,18 @@
 CivicAid Log Monitor Report
-Generated on: Sun May  3 17:45:40 UTC 2026
+Generated on: Sun May  3 17:58:55 UTC 2026
 
 Log directory: logs
 
 1. Available log files:
-total 20K
+total 28K
 -rw-r--r-- 1 lovepreet lovepreet    0 May  2 09:32 access.log
 -rw-r--r-- 1 lovepreet lovepreet 2.1K May  3 12:37 app.log
+-rw-r--r-- 1 lovepreet lovepreet  953 May  3 17:58 command_center.log
 -rw-r--r-- 1 lovepreet lovepreet  923 May  3 16:57 cron.log
 -rw-r--r-- 1 lovepreet lovepreet  244 May  3 17:42 error.log
 -rw-r--r-- 1 lovepreet lovepreet    0 May  3 12:38 fake_worker.pid
--rw-r--r-- 1 lovepreet lovepreet 4.4K May  3 17:45 script_activity.log
+-rw-r--r-- 1 lovepreet lovepreet 5.6K May  3 17:58 script_activity.log
+-rw-r--r-- 1 lovepreet lovepreet  561 May  3 17:51 service_simulation.log
 
 2. ERROR entries:
 logs/error.log:2026-05-03 18:30:00 [ERROR] Failed to process donation record D009
@@ -32,13 +34,13 @@ logs/error.log:2026-05-03 18:31:00 [WARNING] Backup folder size is growing
 2026-05-03 12:37:22 - CivicAid worker heartbeat: system running
 
 5. Latest script activity lines:
-2026-05-03 16:57:11 [generate_report] Pending service tickets added to report.
-2026-05-03 16:57:11 [generate_report] [OK] Report generated: reports/daily_report.txt
-2026-05-03 16:57:44 [backup_data] Starting compressed backup.
-2026-05-03 16:57:44 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_165744.tar.gz
-2026-05-03 17:42:27 [generate_report] Starting daily report generation.
-2026-05-03 17:42:27 [generate_report] High urgency requests added to report.
-2026-05-03 17:42:27 [generate_report] Pending service tickets added to report.
-2026-05-03 17:42:27 [generate_report] [OK] Report generated: reports/daily_report.txt
-2026-05-03 17:45:40 [health_check] Starting CivicAid health check.
-2026-05-03 17:45:40 [health_check] [OK] Health check passed.
+2026-05-03 17:58:41 [generate_report] Pending service tickets added to report.
+2026-05-03 17:58:41 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 17:58:46 [health_check] Starting CivicAid health check.
+2026-05-03 17:58:46 [health_check] [OK] Health check passed.
+2026-05-03 17:58:49 [search_requests] Searching urgent help requests.
+2026-05-03 17:58:49 [search_requests] [OK] Search completed.
+2026-05-03 17:58:51 [search_requests] Searching pending help requests.
+2026-05-03 17:58:51 [search_requests] [OK] Search completed.
+2026-05-03 17:58:53 [backup_data] Starting compressed backup.
+2026-05-03 17:58:53 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_175853.tar.gz
