@@ -104,3 +104,9 @@
 2026-05-03 18:21:48 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_182148.tar.gz
 2026-05-03 18:30:03 [health_check] Starting CivicAid health check.
 2026-05-03 18:30:03 [health_check] [OK] Health check passed.
+2026-05-03 18:55:57 [health_check] Starting CivicAid health check.
+2026-05-03 18:55:57 [health_check] [OK] Health check passed.
+2026-05-03 18:56:10 [generate_report] Starting daily report generation.
+2026-05-03 18:56:10 [generate_report] High urgency requests added to report.
+2026-05-03 18:56:10 [generate_report] Pending service tickets added to report.
+2026-05-03 18:56:10 [generate_report] [OK] Report generated: reports/daily_report.txt

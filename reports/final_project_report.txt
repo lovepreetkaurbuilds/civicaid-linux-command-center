@@ -1,0 +1,47 @@
+CivicAid Final Project Report
+Generated on: Sun May  3 18:49:58 UTC 2026
+
+Project:
+CivicAid Linux Operations Command Center
+
+Purpose:
+Practical Linux and Shell portfolio project using fake NGO operations data.
+
+Core proof documents:
+- docs/project-overview.md
+- docs/linux-shell-skills-proven.md
+- docs/how-to-run-civicaid.md
+- docs/final-project-structure.md
+
+Core scripts:
+scripts/archive_logs.sh
+scripts/backup_data.sh
+scripts/check_server_health.sh
+scripts/check_tools.sh
+scripts/civicaid_command_center.sh
+scripts/error_diagnoser.sh
+scripts/generate_log_summary.sh
+scripts/generate_report.sh
+scripts/generate_summary_reports.sh
+scripts/generate_table_reports.sh
+scripts/generate_weekly_summary.sh
+scripts/load_env.sh
+scripts/monitor_logs.sh
+scripts/run_backup_cron.sh
+scripts/run_daily_report_cron.sh
+scripts/run_health_check.sh
+scripts/run_quality_checks.sh
+scripts/search_requests.sh
+scripts/security_audit.sh
+scripts/simulate_remote_deploy.sh
+scripts/simulate_service_management.sh
+
+Git branch:
+main
+
+Git status:
+?? docs/final-project-structure.md
+?? docs/how-to-run-civicaid.md
+?? docs/linux-shell-skills-proven.md
+?? docs/project-overview.md
+?? reports/final_project_report.txt

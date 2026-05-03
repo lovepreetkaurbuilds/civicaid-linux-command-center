@@ -1,5 +1,5 @@
 CivicAid Security Audit Report
-Generated on: Sun May  3 18:21:07 UTC 2026
+Generated on: Sun May  3 18:55:57 UTC 2026
 
 1. Checking Git ignore rules:
 [OK] config/app.env is ignored
@@ -18,12 +18,13 @@ total 20
 -rwxr-xr-x 1 lovepreet lovepreet 1069 May  3 16:46 scripts/backup_data.sh
 -rwxr-xr-x 1 lovepreet lovepreet  501 May  3 17:22 scripts/check_server_health.sh
 -rwxr-xr-x 1 lovepreet lovepreet  332 May  3 12:53 scripts/check_tools.sh
--rwxr-xr-x 1 lovepreet lovepreet 3684 May  3 18:20 scripts/civicaid_command_center.sh
+-rwxr-xr-x 1 lovepreet lovepreet 3824 May  3 18:29 scripts/civicaid_command_center.sh
+-rwxr-xr-x 1 lovepreet lovepreet 2691 May  3 18:26 scripts/error_diagnoser.sh
 -rwxr-xr-x 1 lovepreet lovepreet  907 May  3 17:55 scripts/generate_log_summary.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1846 May  3 16:34 scripts/generate_report.sh
 -rwxr-xr-x 1 lovepreet lovepreet 2335 May  3 17:54 scripts/generate_summary_reports.sh
 -rwxr-xr-x 1 lovepreet lovepreet  321 May  3 17:54 scripts/generate_table_reports.sh
--rwxr-xr-x 1 lovepreet lovepreet 1531 May  3 18:20 scripts/generate_weekly_summary.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1531 May  3 18:22 scripts/generate_weekly_summary.sh
 -rwxr-xr-x 1 lovepreet lovepreet  389 May  3 16:13 scripts/load_env.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1209 May  3 17:44 scripts/monitor_logs.sh
 -rwxr-xr-x 1 lovepreet lovepreet  422 May  3 16:57 scripts/run_backup_cron.sh
@@ -36,6 +37,9 @@ total 20
 -rwxr-xr-x 1 lovepreet lovepreet 1640 May  3 17:51 scripts/simulate_service_management.sh
 
 4. Searching for risky secret keywords:
+./README.md:59:- environment variables and secret safety
+./README.md:138:passwords
+./README.md:140:tokens
 ./scripts/simulate_remote_deploy.sh:36:CIVICAID_FAKE_API_KEY=server_fake_key_only
 ./scripts/security_audit.sh:36:    echo "4. Searching for risky secret keywords:"
 ./scripts/security_audit.sh:37:    grep -RniE "password|secret|api_key|token|private_key|apikey" . \
@@ -53,6 +57,9 @@ total 20
 ./docs/stage-23-security-basics.md:9:- secret safety
 ./docs/stage-23-security-basics.md:26:1. Checked project files for risky secret keywords.
 ./docs/stage-23-security-basics.md:35:Security basics help Linux users protect secrets, avoid unsafe permissions, reduce accidental damage, and prepare projects for safer public GitHub sharing.
+./docs/project-overview.md:38:All data is fake/sample data only. No real private data or real secrets are used.
+./docs/linux-shell-skills-proven.md:19:| Environment variables | Safe config handling using env files and secret-safety rules |
+./docs/linux-shell-skills-proven.md:26:| Security basics | Security audit, secret checks, permission checks, sudo safety |
 ./docs/stage-15-environment-path.md:3:This stage demonstrates environment variables, PATH, .bashrc, source, and secret safety using the CivicAid Linux Operations Command Center.
 ./docs/stage-15-environment-path.md:21:- Real secrets should never be committed to GitHub.
 ./config/app.env.example:2:# Fake/sample values only. Do not store real secrets in GitHub.
