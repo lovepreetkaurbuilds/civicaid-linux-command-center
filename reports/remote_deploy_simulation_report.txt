@@ -1,0 +1,103 @@
+CivicAid Remote Deployment Simulation Report
+Generated on: Sun May  3 17:39:13 UTC 2026
+
+Simulated server root:
+/home/lovepreet/remote-server-sim
+
+Application files:
+/home/lovepreet/remote-server-sim/opt/civicaid/.gitignore
+/home/lovepreet/remote-server-sim/opt/civicaid/.pytest_cache/.gitignore
+/home/lovepreet/remote-server-sim/opt/civicaid/.pytest_cache/CACHEDIR.TAG
+/home/lovepreet/remote-server-sim/opt/civicaid/.pytest_cache/README.md
+/home/lovepreet/remote-server-sim/opt/civicaid/README.md
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/.gitkeep
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/civicaid_backup_20260503_164721.tar.gz
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/civicaid_backup_20260503_165744.tar.gz
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/civicaid_data.tar
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/civicaid_data.tar.gz
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/civicaid_logs.zip
+/home/lovepreet/remote-server-sim/opt/civicaid/backups/civicaid_logs_20260503_164759.zip
+/home/lovepreet/remote-server-sim/opt/civicaid/config/access_roles.csv
+/home/lovepreet/remote-server-sim/opt/civicaid/config/app.env
+/home/lovepreet/remote-server-sim/opt/civicaid/config/app.env.example
+/home/lovepreet/remote-server-sim/opt/civicaid/data/donations.csv
+/home/lovepreet/remote-server-sim/opt/civicaid/data/help_requests.csv
+/home/lovepreet/remote-server-sim/opt/civicaid/data/service_tickets.csv
+/home/lovepreet/remote-server-sim/opt/civicaid/data/volunteers.csv
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/civicaid-access-control-policy.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-06-text-processing.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-07-pipes-redirection.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-08-linux-filesystem.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-09-permissions-ownership.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-10-users-groups.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-11-processes-monitoring.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-12-package-management.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-13-python-workflow.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-14-git-github-linux.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-15-environment-path.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-16-shell-scripting-beginner.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-17-shell-scripting-intermediate.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-18-archiving-compression.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-19-cron-scheduled-automation.md
+/home/lovepreet/remote-server-sim/opt/civicaid/docs/stage-20-networking-basics.md
+/home/lovepreet/remote-server-sim/opt/civicaid/logs/access.log
+/home/lovepreet/remote-server-sim/opt/civicaid/logs/app.log
+/home/lovepreet/remote-server-sim/opt/civicaid/logs/cron.log
+/home/lovepreet/remote-server-sim/opt/civicaid/logs/error.log
+/home/lovepreet/remote-server-sim/opt/civicaid/logs/fake_worker.pid
+/home/lovepreet/remote-server-sim/opt/civicaid/logs/script_activity.log
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/backup_archive_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/backup_manifest_20260503_164721.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/backup_manifest_20260503_165744.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/cron_job_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/curl_health_response.json
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/curl_urgent_response.json
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/daily_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/git_history_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/health_check_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/help_requests_open_preview.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/pending_tickets.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/pytest_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/request_category_summary.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/search_medical_requests.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/search_pending_requests.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/search_urgent_requests.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/server_health_response.json
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/tool_check_report.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/urgent_requests_response.json
+/home/lovepreet/remote-server-sim/opt/civicaid/reports/weekly_summary.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/requirements.txt
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/archive_logs.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/backup_data.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/check_server_health.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/check_tools.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/generate_report.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/load_env.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/monitor_logs.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/run_backup_cron.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/run_daily_report_cron.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/run_health_check.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/search_requests.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/scripts/simulate_remote_deploy.sh
+/home/lovepreet/remote-server-sim/opt/civicaid/src/civicaid.py
+/home/lovepreet/remote-server-sim/opt/civicaid/src/civicaid_server.py
+/home/lovepreet/remote-server-sim/opt/civicaid/src/fake_civicaid_worker.py
+/home/lovepreet/remote-server-sim/opt/civicaid/tests/test_civicaid.py
+
+Configuration files:
+total 8
+-rw------- 1 lovepreet lovepreet 272 May  3 17:39 app.env
+-rw-r--r-- 1 lovepreet lovepreet 305 May  3 17:39 app.env.example
+
+Log files:
+total 12
+-rw-r--r-- 1 lovepreet lovepreet    0 May  2 09:32 access.log
+-rw-r--r-- 1 lovepreet lovepreet 2112 May  3 12:37 app.log
+-rw-r--r-- 1 lovepreet lovepreet  923 May  3 16:57 cron.log
+-rw-r--r-- 1 lovepreet lovepreet    0 May  2 09:32 error.log
+-rw-r--r-- 1 lovepreet lovepreet    0 May  3 12:38 fake_worker.pid
+-rw-r--r-- 1 lovepreet lovepreet 4040 May  3 16:57 script_activity.log
+
+Backup files:
+total 4
+-rw-r--r-- 1 lovepreet lovepreet 727 May  3 17:39 backup_archive_report.txt
