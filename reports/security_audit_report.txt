@@ -1,5 +1,5 @@
 CivicAid Security Audit Report
-Generated on: Sun May  3 18:02:53 UTC 2026
+Generated on: Sun May  3 18:07:48 UTC 2026
 
 1. Checking Git ignore rules:
 [OK] config/app.env is ignored
@@ -27,6 +27,7 @@ total 16
 -rwxr-xr-x 1 lovepreet lovepreet  422 May  3 16:57 scripts/run_backup_cron.sh
 -rwxr-xr-x 1 lovepreet lovepreet  438 May  3 16:57 scripts/run_daily_report_cron.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1710 May  3 16:36 scripts/run_health_check.sh
+-rwxr-xr-x 1 lovepreet lovepreet 3415 May  3 18:07 scripts/run_quality_checks.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1903 May  3 16:36 scripts/search_requests.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1376 May  3 17:48 scripts/security_audit.sh
 -rwxr-xr-x 1 lovepreet lovepreet 1421 May  3 17:39 scripts/simulate_remote_deploy.sh

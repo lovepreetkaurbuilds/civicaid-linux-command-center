@@ -1,0 +1,101 @@
+CivicAid Quality Check Report
+Generated on: Sun May  3 18:07:48 UTC 2026
+=============================
+
+1. Bash syntax checks
+---------------------
+Checking syntax: scripts/archive_logs.sh
+[OK] Syntax valid: scripts/archive_logs.sh
+
+Checking syntax: scripts/backup_data.sh
+[OK] Syntax valid: scripts/backup_data.sh
+
+Checking syntax: scripts/check_server_health.sh
+[OK] Syntax valid: scripts/check_server_health.sh
+
+Checking syntax: scripts/check_tools.sh
+[OK] Syntax valid: scripts/check_tools.sh
+
+Checking syntax: scripts/civicaid_command_center.sh
+[OK] Syntax valid: scripts/civicaid_command_center.sh
+
+Checking syntax: scripts/generate_log_summary.sh
+[OK] Syntax valid: scripts/generate_log_summary.sh
+
+Checking syntax: scripts/generate_report.sh
+[OK] Syntax valid: scripts/generate_report.sh
+
+Checking syntax: scripts/generate_summary_reports.sh
+[OK] Syntax valid: scripts/generate_summary_reports.sh
+
+Checking syntax: scripts/generate_table_reports.sh
+[OK] Syntax valid: scripts/generate_table_reports.sh
+
+Checking syntax: scripts/load_env.sh
+[OK] Syntax valid: scripts/load_env.sh
+
+Checking syntax: scripts/monitor_logs.sh
+[OK] Syntax valid: scripts/monitor_logs.sh
+
+Checking syntax: scripts/run_backup_cron.sh
+[OK] Syntax valid: scripts/run_backup_cron.sh
+
+Checking syntax: scripts/run_daily_report_cron.sh
+[OK] Syntax valid: scripts/run_daily_report_cron.sh
+
+Checking syntax: scripts/run_health_check.sh
+[OK] Syntax valid: scripts/run_health_check.sh
+
+Checking syntax: scripts/run_quality_checks.sh
+[OK] Syntax valid: scripts/run_quality_checks.sh
+
+Checking syntax: scripts/search_requests.sh
+[OK] Syntax valid: scripts/search_requests.sh
+
+Checking syntax: scripts/security_audit.sh
+[OK] Syntax valid: scripts/security_audit.sh
+
+Checking syntax: scripts/simulate_remote_deploy.sh
+[OK] Syntax valid: scripts/simulate_remote_deploy.sh
+
+Checking syntax: scripts/simulate_service_management.sh
+[OK] Syntax valid: scripts/simulate_service_management.sh
+
+2. Required executable script checks
+------------------------------------
+[OK] Executable: scripts/generate_report.sh
+[OK] Executable: scripts/backup_data.sh
+[OK] Executable: scripts/search_requests.sh
+[OK] Executable: scripts/run_health_check.sh
+[OK] Executable: scripts/security_audit.sh
+[OK] Executable: scripts/civicaid_command_center.sh
+
+3. Core script execution checks
+-------------------------------
+[OK] generate_report.sh ran successfully
+[OK] run_health_check.sh ran successfully
+[OK] security_audit.sh ran successfully
+[OK] generate_summary_reports.sh ran successfully
+
+4. Python test checks
+---------------------
+[OK] pytest passed
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.0.3, pluggy-1.6.0
+rootdir: /home/lovepreet/projects/civicaid-linux-command-center
+collected 3 items
+
+tests/test_civicaid.py ...                                               [100%]
+
+============================== 3 passed in 0.04s ===============================
+
+5. Required report checks
+-------------------------
+[OK] Report exists: reports/daily_report.txt
+[OK] Report exists: reports/civicaid_operations_summary.txt
+[OK] Report exists: reports/security_audit_report.txt
+[OK] Report exists: reports/health_check_report.txt
+
+6. Final result
+---------------
+[OK] All quality checks passed.
