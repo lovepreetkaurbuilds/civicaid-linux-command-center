@@ -1,0 +1,11 @@
+CivicAid Backup Manifest
+Created on: Sun May  3 18:21:48 UTC 2026
+Archive file: backups/civicaid_backup_20260503_182148.tar.gz
+
+Items included:
+- data
+- reports
+- scripts
+- config/app.env.example
+- README.md
+- requirements.txt

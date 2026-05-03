@@ -94,3 +94,11 @@
 2026-05-03 18:17:44 [health_check] [OK] Health check passed.
 2026-05-03 18:17:44 [search_requests] Searching urgent help requests.
 2026-05-03 18:17:44 [search_requests] [OK] Search completed.
+2026-05-03 18:20:52 [weekly_summary] Starting weekly summary generation.
+2026-05-03 18:20:52 [weekly_summary] [OK] Weekly summary generated: reports/weekly_summary.txt
+2026-05-03 18:21:07 [weekly_summary] Starting weekly summary generation.
+2026-05-03 18:21:07 [weekly_summary] [OK] Weekly summary generated: reports/weekly_summary.txt
+2026-05-03 18:21:07 [health_check] Starting CivicAid health check.
+2026-05-03 18:21:07 [health_check] [OK] Health check passed.
+2026-05-03 18:21:48 [backup_data] Starting compressed backup.
+2026-05-03 18:21:48 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_182148.tar.gz

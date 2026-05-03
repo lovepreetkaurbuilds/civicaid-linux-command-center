@@ -35,7 +35,8 @@ show_menu() {
     echo "11. Simulate remote deployment"
     echo "12. Simulate service status"
     echo "13. Run security audit"
-    echo "14. Show Git status"
+    echo "14. Generate weekly summary"
+    echo "15. Show Git status"
     echo "0. Exit"
     echo ""
 }
@@ -122,6 +123,10 @@ while true; do
             ;;
 
         14)
+            run_command "Generate weekly summary" "./scripts/generate_weekly_summary.sh"
+            ;;
+
+        15)
             run_command "Show Git status" "git status"
             ;;
 
@@ -132,7 +137,7 @@ while true; do
             ;;
 
         *)
-            echo "[ERROR] Invalid option. Choose 0-14."
+            echo "[ERROR] Invalid option. Choose 0-15."
             pause_screen
             ;;
     esac

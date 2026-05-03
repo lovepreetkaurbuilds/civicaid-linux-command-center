@@ -1,5 +1,5 @@
 CivicAid Log Monitor Report
-Generated on: Sun May  3 17:58:55 UTC 2026
+Generated on: Sun May  3 18:21:07 UTC 2026
 
 Log directory: logs
 
@@ -7,11 +7,11 @@ Log directory: logs
 total 28K
 -rw-r--r-- 1 lovepreet lovepreet    0 May  2 09:32 access.log
 -rw-r--r-- 1 lovepreet lovepreet 2.1K May  3 12:37 app.log
--rw-r--r-- 1 lovepreet lovepreet  953 May  3 17:58 command_center.log
+-rw-r--r-- 1 lovepreet lovepreet 1.9K May  3 17:59 command_center.log
 -rw-r--r-- 1 lovepreet lovepreet  923 May  3 16:57 cron.log
 -rw-r--r-- 1 lovepreet lovepreet  244 May  3 17:42 error.log
 -rw-r--r-- 1 lovepreet lovepreet    0 May  3 12:38 fake_worker.pid
--rw-r--r-- 1 lovepreet lovepreet 5.6K May  3 17:58 script_activity.log
+-rw-r--r-- 1 lovepreet lovepreet 7.2K May  3 18:21 script_activity.log
 -rw-r--r-- 1 lovepreet lovepreet  561 May  3 17:51 service_simulation.log
 
 2. ERROR entries:
@@ -34,13 +34,13 @@ logs/error.log:2026-05-03 18:31:00 [WARNING] Backup folder size is growing
 2026-05-03 12:37:22 - CivicAid worker heartbeat: system running
 
 5. Latest script activity lines:
-2026-05-03 17:58:41 [generate_report] Pending service tickets added to report.
-2026-05-03 17:58:41 [generate_report] [OK] Report generated: reports/daily_report.txt
-2026-05-03 17:58:46 [health_check] Starting CivicAid health check.
-2026-05-03 17:58:46 [health_check] [OK] Health check passed.
-2026-05-03 17:58:49 [search_requests] Searching urgent help requests.
-2026-05-03 17:58:49 [search_requests] [OK] Search completed.
-2026-05-03 17:58:51 [search_requests] Searching pending help requests.
-2026-05-03 17:58:51 [search_requests] [OK] Search completed.
-2026-05-03 17:58:53 [backup_data] Starting compressed backup.
-2026-05-03 17:58:53 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_175853.tar.gz
+2026-05-03 18:17:44 [health_check] Starting CivicAid health check.
+2026-05-03 18:17:44 [health_check] [OK] Health check passed.
+2026-05-03 18:17:44 [search_requests] Searching urgent help requests.
+2026-05-03 18:17:44 [search_requests] [OK] Search completed.
+2026-05-03 18:20:52 [weekly_summary] Starting weekly summary generation.
+2026-05-03 18:20:52 [weekly_summary] [OK] Weekly summary generated: reports/weekly_summary.txt
+2026-05-03 18:21:07 [weekly_summary] Starting weekly summary generation.
+2026-05-03 18:21:07 [weekly_summary] [OK] Weekly summary generated: reports/weekly_summary.txt
+2026-05-03 18:21:07 [health_check] Starting CivicAid health check.
+2026-05-03 18:21:07 [health_check] [OK] Health check passed.
