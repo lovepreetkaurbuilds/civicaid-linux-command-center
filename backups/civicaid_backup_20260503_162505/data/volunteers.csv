@@ -1,0 +1,6 @@
+volunteer_id,name,team,area,availability,status
+V001,Jas Volunteer,medical,Gurdaspur,weekdays,active
+V002,Noor Helper,food,Batala,weekends,active
+V003,Harpreet Support,education,Amritsar,evenings,inactive
+V004,Sonia Fieldcare,shelter,Qadian,weekdays,active
+V005,Arjun Coordinator,operations,Dera Baba Nanak,weekends,active

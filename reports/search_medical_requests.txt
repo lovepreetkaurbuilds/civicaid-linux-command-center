@@ -1,0 +1,5 @@
+Searching help requests for: medical
+-----------------------------------
+HR001,Aman Village Center,Gurdaspur,medical,high,pending,2026-05-01
+HR004,Kiran Rural Point,Dera Baba Nanak,medical,high,pending,2026-05-02
+[OK] Search completed.

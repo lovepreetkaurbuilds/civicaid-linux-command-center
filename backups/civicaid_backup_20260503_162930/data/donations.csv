@@ -1,0 +1,6 @@
+donation_id,donor_name,amount,category,method,date
+D001,Sample Donor A,5000,medical,upi,2026-05-01
+D002,Sample Donor B,2500,food,cash,2026-05-01
+D003,Sample Donor C,10000,education,bank_transfer,2026-05-02
+D004,Sample Donor D,1500,shelter,upi,2026-05-02
+D005,Sample Donor E,7000,operations,bank_transfer,2026-05-02

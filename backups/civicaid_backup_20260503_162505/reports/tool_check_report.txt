@@ -1,0 +1,9 @@
+CivicAid Tool Check
+===================
+[OK] git found at /usr/bin/git
+[OK] python3 found at /usr/bin/python3
+[OK] pip3 found at /usr/bin/pip3
+[OK] tree found at /usr/bin/tree
+[OK] htop found at /usr/bin/htop
+[OK] curl found at /usr/bin/curl
+[OK] wget found at /usr/bin/wget

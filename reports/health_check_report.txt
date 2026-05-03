@@ -1,0 +1,29 @@
+CivicAid Health Check
+====================
+
+Checking required directories...
+[OK] Directory exists: data
+[OK] Directory exists: reports
+[OK] Directory exists: logs
+[OK] Directory exists: scripts
+[OK] Directory exists: src
+[OK] Directory exists: tests
+[OK] Directory exists: backups
+[OK] Directory exists: config
+[OK] Directory exists: docs
+
+Checking required files...
+[OK] File exists: README.md
+[OK] File exists: requirements.txt
+[OK] File exists: data/help_requests.csv
+[OK] File exists: src/civicaid.py
+
+Checking required tools...
+[OK] Tool found: git
+[OK] Tool found: python3
+[OK] Tool found: pip3
+[OK] Tool found: tree
+[OK] Tool found: curl
+[OK] Tool found: wget
+
+[OK] Health check completed.
