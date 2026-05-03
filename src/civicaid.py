@@ -1,8 +1,19 @@
 import csv
+import os
 from pathlib import Path
 
 
 DATA_FILE = Path("data/help_requests.csv")
+
+
+def get_app_config():
+    """Read CivicAid settings from environment variables."""
+    return {
+        "environment": os.getenv("CIVICAID_ENV", "development"),
+        "app_name": os.getenv("CIVICAID_APP_NAME", "CivicAid"),
+        "log_level": os.getenv("CIVICAID_LOG_LEVEL", "info"),
+        "backup_dir": os.getenv("CIVICAID_BACKUP_DIR", "backups"),
+    }
 
 
 def load_help_requests(file_path=DATA_FILE):
@@ -29,11 +40,16 @@ def format_request(request):
 
 
 def main():
+    config = get_app_config()
     requests = load_help_requests()
     urgent_requests = get_urgent_requests(requests)
 
-    print("CivicAid Urgent Pending Help Requests")
-    print("=====================================")
+    print(config["app_name"])
+    print(f"Environment: {config['environment']}")
+    print(f"Log level: {config['log_level']}")
+    print()
+    print("Urgent Pending Help Requests")
+    print("============================")
 
     if not urgent_requests:
         print("No urgent pending requests found.")

@@ -4,7 +4,21 @@ import sys
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from civicaid import get_urgent_requests, format_request
+from civicaid import get_app_config, get_urgent_requests, format_request
+
+
+def test_get_app_config_uses_default_values(monkeypatch):
+    monkeypatch.delenv("CIVICAID_ENV", raising=False)
+    monkeypatch.delenv("CIVICAID_APP_NAME", raising=False)
+    monkeypatch.delenv("CIVICAID_LOG_LEVEL", raising=False)
+    monkeypatch.delenv("CIVICAID_BACKUP_DIR", raising=False)
+
+    config = get_app_config()
+
+    assert config["environment"] == "development"
+    assert config["app_name"] == "CivicAid"
+    assert config["log_level"] == "info"
+    assert config["backup_dir"] == "backups"
 
 
 def test_get_urgent_requests_returns_only_high_pending():
