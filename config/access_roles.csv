@@ -1,0 +1,6 @@
+role,group_name,allowed_area,permission_level
+admin,civicaid-admin,all,read_write_execute
+volunteer,civicaid-volunteer,help_requests,read_limited_write
+finance,civicaid-finance,donations,read_write_finance
+support,civicaid-support,service_tickets_logs,read_write_support
+viewer,civicaid-viewer,reports,read_only
