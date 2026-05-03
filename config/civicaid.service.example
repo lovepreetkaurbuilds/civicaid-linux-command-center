@@ -1,0 +1,14 @@
+[Unit]
+Description=CivicAid Linux Operations Command Center Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/civicaid
+ExecStart=/usr/bin/python3 /opt/civicaid/src/civicaid_server.py
+Restart=on-failure
+RestartSec=5
+EnvironmentFile=/etc/civicaid/app.env
+
+[Install]
+WantedBy=multi-user.target
