@@ -1,0 +1,50 @@
+2026-05-03 16:34:51 [generate_report] Starting daily report generation.
+2026-05-03 16:34:51 [generate_report] High urgency requests added to report.
+2026-05-03 16:34:51 [generate_report] Pending service tickets added to report.
+2026-05-03 16:34:51 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 16:35:31 [backup_data] Starting backup into backups/civicaid_backup_20260503_163531
+2026-05-03 16:35:31 [backup_data] Backed up: data
+2026-05-03 16:35:31 [backup_data] Backed up: reports
+2026-05-03 16:35:31 [backup_data] Backed up: scripts
+2026-05-03 16:35:31 [backup_data] Backed up: config/app.env.example
+2026-05-03 16:35:31 [backup_data] Backed up: README.md
+2026-05-03 16:35:31 [backup_data] Backed up: requirements.txt
+2026-05-03 16:35:31 [backup_data] [OK] Backup completed: backups/civicaid_backup_20260503_163531
+2026-05-03 16:36:12 [search_requests] Searching urgent help requests.
+2026-05-03 16:36:12 [search_requests] [OK] Search completed.
+2026-05-03 16:36:12 [search_requests] Searching pending help requests.
+2026-05-03 16:36:12 [search_requests] [OK] Search completed.
+2026-05-03 16:36:12 [search_requests] Searching category: medical
+2026-05-03 16:36:12 [search_requests] [OK] Search completed.
+2026-05-03 16:36:12 [search_requests] Searching keyword: Gurdaspur
+2026-05-03 16:36:12 [search_requests] [OK] Search completed.
+2026-05-03 16:36:30 [health_check] Starting CivicAid health check.
+2026-05-03 16:36:30 [health_check] [OK] Health check passed.
+2026-05-03 16:36:42 [health_check] Starting CivicAid health check.
+2026-05-03 16:36:42 [health_check] [OK] Health check passed.
+2026-05-03 16:36:53 [search_requests] Searching urgent help requests.
+2026-05-03 16:36:53 [search_requests] [OK] Search completed.
+2026-05-03 16:36:53 [search_requests] Searching pending help requests.
+2026-05-03 16:36:53 [search_requests] [OK] Search completed.
+2026-05-03 16:36:53 [search_requests] Searching category: medical
+2026-05-03 16:36:53 [search_requests] [OK] Search completed.
+2026-05-03 16:37:51 [generate_report] Starting daily report generation.
+2026-05-03 16:37:51 [generate_report] High urgency requests added to report.
+2026-05-03 16:37:51 [generate_report] Pending service tickets added to report.
+2026-05-03 16:37:51 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 16:37:51 [backup_data] Starting backup into backups/civicaid_backup_20260503_163751
+2026-05-03 16:37:51 [backup_data] Backed up: data
+2026-05-03 16:37:51 [backup_data] Backed up: reports
+2026-05-03 16:37:51 [backup_data] Backed up: scripts
+2026-05-03 16:37:51 [backup_data] Backed up: config/app.env.example
+2026-05-03 16:37:51 [backup_data] Backed up: README.md
+2026-05-03 16:37:51 [backup_data] Backed up: requirements.txt
+2026-05-03 16:37:51 [backup_data] [OK] Backup completed: backups/civicaid_backup_20260503_163751
+2026-05-03 16:37:51 [search_requests] Searching urgent help requests.
+2026-05-03 16:37:51 [search_requests] [OK] Search completed.
+2026-05-03 16:37:51 [search_requests] Searching pending help requests.
+2026-05-03 16:37:51 [search_requests] [OK] Search completed.
+2026-05-03 16:37:51 [search_requests] Searching category: medical
+2026-05-03 16:37:51 [search_requests] [OK] Search completed.
+2026-05-03 16:37:51 [health_check] Starting CivicAid health check.
+2026-05-03 16:37:51 [health_check] [OK] Health check passed.

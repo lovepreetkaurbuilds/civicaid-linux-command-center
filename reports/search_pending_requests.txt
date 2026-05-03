@@ -1,3 +1,4 @@
-Help requests in category: medical
+Pending help requests:
 HR001,Aman Village Center,Gurdaspur,medical,high,pending,2026-05-01
 HR004,Kiran Rural Point,Dera Baba Nanak,medical,high,pending,2026-05-02
+HR005,Mehak Support Unit,Qadian,shelter,medium,pending,2026-05-02

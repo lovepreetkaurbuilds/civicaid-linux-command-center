@@ -6,3 +6,4 @@ __pycache__/
 .venv/
 config/app.env
 *.env
+backups/civicaid_backup_*

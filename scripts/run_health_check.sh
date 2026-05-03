@@ -1,11 +1,17 @@
 #!/bin/bash
 
-echo "CivicAid Health Check"
-echo "===================="
+set -euo pipefail
+
+LOG_FILE="logs/script_activity.log"
+STATUS=0
 
 REQUIRED_DIRS=("data" "reports" "logs" "scripts" "src" "tests" "backups" "config" "docs")
-REQUIRED_FILES=("README.md" "requirements.txt" "data/help_requests.csv" "src/civicaid.py")
+REQUIRED_FILES=("README.md" "requirements.txt" "data/help_requests.csv" "src/civicaid.py" "config/app.env.example")
 REQUIRED_TOOLS=("git" "python3" "pip3" "tree" "curl" "wget")
+
+log() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [health_check] $1" | tee -a "$LOG_FILE"
+}
 
 check_directories() {
     echo ""
@@ -15,6 +21,7 @@ check_directories() {
             echo "[OK] Directory exists: $dir"
         else
             echo "[MISSING] Directory missing: $dir"
+            STATUS=1
         fi
     done
 }
@@ -27,6 +34,7 @@ check_files() {
             echo "[OK] File exists: $file"
         else
             echo "[MISSING] File missing: $file"
+            STATUS=1
         fi
     done
 }
@@ -39,13 +47,29 @@ check_tools() {
             echo "[OK] Tool found: $tool"
         else
             echo "[MISSING] Tool missing: $tool"
+            STATUS=1
         fi
     done
 }
+
+mkdir -p logs
+
+log "Starting CivicAid health check."
+
+echo "CivicAid Health Check"
+echo "===================="
 
 check_directories
 check_files
 check_tools
 
 echo ""
-echo "[OK] Health check completed."
+if [ "$STATUS" -eq 0 ]; then
+    log "[OK] Health check passed."
+    echo "[OK] Health check passed."
+else
+    log "[ERROR] Health check failed."
+    echo "[ERROR] Health check failed."
+fi
+
+exit "$STATUS"

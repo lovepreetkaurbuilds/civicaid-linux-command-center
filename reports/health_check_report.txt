@@ -1,3 +1,4 @@
+2026-05-03 16:36:42 [health_check] Starting CivicAid health check.
 CivicAid Health Check
 ====================
 
@@ -17,6 +18,7 @@ Checking required files...
 [OK] File exists: requirements.txt
 [OK] File exists: data/help_requests.csv
 [OK] File exists: src/civicaid.py
+[OK] File exists: config/app.env.example
 
 Checking required tools...
 [OK] Tool found: git
@@ -26,4 +28,5 @@ Checking required tools...
 [OK] Tool found: curl
 [OK] Tool found: wget
 
-[OK] Health check completed.
+2026-05-03 16:36:42 [health_check] [OK] Health check passed.
+[OK] Health check passed.
