@@ -1,0 +1,89 @@
+CivicAid Error Diagnosis Report
+Generated on: Sun May  3 18:30:03 UTC 2026
+===============================
+
+1. Current folder
+-----------------
+/home/lovepreet/projects/civicaid-linux-command-center
+
+2. Required command checks
+--------------------------
+[OK] git found at /usr/bin/git
+[OK] python3 found at /home/lovepreet/projects/civicaid-linux-command-center/.venv/bin/python3
+[OK] pip3 found at /home/lovepreet/projects/civicaid-linux-command-center/.venv/bin/pip3
+[OK] pytest found at /home/lovepreet/projects/civicaid-linux-command-center/.venv/bin/pytest
+[OK] tree found at /usr/bin/tree
+[OK] curl found at /usr/bin/curl
+[OK] wget found at /usr/bin/wget
+[OK] cron found at /usr/sbin/cron
+[OK] crontab found at /usr/bin/crontab
+
+3. Required folder checks
+-------------------------
+[OK] Directory exists: data
+[OK] Directory exists: reports
+[OK] Directory exists: logs
+[OK] Directory exists: scripts
+[OK] Directory exists: src
+[OK] Directory exists: tests
+[OK] Directory exists: config
+[OK] Directory exists: docs
+
+4. Required file checks
+-----------------------
+[OK] File exists: README.md
+[OK] File exists: data/help_requests.csv
+[OK] File exists: src/civicaid.py
+[OK] File exists: requirements.txt
+
+5. Script executable checks
+---------------------------
+[OK] Executable: scripts/archive_logs.sh
+[OK] Executable: scripts/backup_data.sh
+[OK] Executable: scripts/check_server_health.sh
+[OK] Executable: scripts/check_tools.sh
+[OK] Executable: scripts/civicaid_command_center.sh
+[OK] Executable: scripts/error_diagnoser.sh
+[OK] Executable: scripts/generate_log_summary.sh
+[OK] Executable: scripts/generate_report.sh
+[OK] Executable: scripts/generate_summary_reports.sh
+[OK] Executable: scripts/generate_table_reports.sh
+[OK] Executable: scripts/generate_weekly_summary.sh
+[OK] Executable: scripts/load_env.sh
+[OK] Executable: scripts/monitor_logs.sh
+[OK] Executable: scripts/run_backup_cron.sh
+[OK] Executable: scripts/run_daily_report_cron.sh
+[OK] Executable: scripts/run_health_check.sh
+[OK] Executable: scripts/run_quality_checks.sh
+[OK] Executable: scripts/search_requests.sh
+[OK] Executable: scripts/security_audit.sh
+[OK] Executable: scripts/simulate_remote_deploy.sh
+[OK] Executable: scripts/simulate_service_management.sh
+
+6. Git status
+-------------
+ M scripts/civicaid_command_center.sh
+?? docs/common-linux-errors-and-fixes.md
+?? docs/stage-26-common-linux-errors.md
+?? reports/error_diagnosis_report.txt
+?? scripts/error_diagnoser.sh
+
+7. Cron status
+--------------
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/usr/lib/systemd/system/cron.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-05-03 07:48:51 UTC; 10h ago
+       Docs: man:cron(8)
+   Main PID: 158 (cron)
+
+8. Common fixes
+---------------
+command not found → check command -v toolname
+permission denied → chmod +x script.sh
+no such file → pwd, ls, check path
+wrong folder → cd ~/projects/civicaid-linux-command-center
+python not found → use python3
+pip not found → use pip3 or activate .venv
+pytest missing → source .venv/bin/activate
+git auth failed → gh auth login
+cron not running → sudo service cron start

@@ -102,3 +102,5 @@
 2026-05-03 18:21:07 [health_check] [OK] Health check passed.
 2026-05-03 18:21:48 [backup_data] Starting compressed backup.
 2026-05-03 18:21:48 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_182148.tar.gz
+2026-05-03 18:30:03 [health_check] Starting CivicAid health check.
+2026-05-03 18:30:03 [health_check] [OK] Health check passed.

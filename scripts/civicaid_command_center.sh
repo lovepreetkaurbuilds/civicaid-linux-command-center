@@ -36,7 +36,8 @@ show_menu() {
     echo "12. Simulate service status"
     echo "13. Run security audit"
     echo "14. Generate weekly summary"
-    echo "15. Show Git status"
+    echo "15. Run error diagnoser"
+    echo "16. Show Git status"
     echo "0. Exit"
     echo ""
 }
@@ -127,6 +128,10 @@ while true; do
             ;;
 
         15)
+            run_command "Run error diagnoser" "./scripts/error_diagnoser.sh"
+            ;;
+
+        16)
             run_command "Show Git status" "git status"
             ;;
 
@@ -137,7 +142,7 @@ while true; do
             ;;
 
         *)
-            echo "[ERROR] Invalid option. Choose 0-15."
+            echo "[ERROR] Invalid option. Choose 0-16."
             pause_screen
             ;;
     esac
