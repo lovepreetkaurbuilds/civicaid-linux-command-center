@@ -1,11 +1,23 @@
 CivicAid Daily Operations Report
-Date: 2026-05-02
+Generated on: Sun May  3 08:20:37 UTC 2026
+Project: CivicAid Linux Operations Command Center
 
-Summary:
-- Sample help request data added.
-- Sample volunteer data added.
-- Sample donation data added.
-- Sample service ticket data added.
+1. Total help request records:
+5
 
-Note:
-All data is fake/sample data for Linux and Shell learning.
+2. High urgency help requests:
+HR001,Aman Village Center,Gurdaspur,medical,high,pending,2026-05-01
+HR004,Kiran Rural Point,Dera Baba Nanak,medical,high,pending,2026-05-02
+
+3. Pending service tickets:
+T001,medicine_delivery,medical,high,pending,2026-05-01
+T004,temporary_shelter_request,shelter,high,pending,2026-05-02
+T005,donation_receipt_issue,finance,medium,pending,2026-05-02
+
+4. Total volunteer records:
+5
+
+5. Donations above 5000:
+donation_id donor_name amount method
+D003 Sample Donor C 10000 bank_transfer
+D005 Sample Donor E 7000 bank_transfer
