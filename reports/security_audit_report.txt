@@ -1,0 +1,59 @@
+CivicAid Security Audit Report
+Generated on: Sun May  3 17:49:40 UTC 2026
+
+1. Checking Git ignore rules:
+[OK] config/app.env is ignored
+[OK] .venv/ is ignored
+
+2. Checking config permissions:
+total 12
+-rw-r--r-- 1 lovepreet lovepreet 312 May  3 11:39 access_roles.csv
+-rw------- 1 lovepreet lovepreet 274 May  3 16:06 app.env
+-rw-r--r-- 1 lovepreet lovepreet 305 May  3 16:06 app.env.example
+
+3. Checking script permissions:
+-rwxr-xr-x 1 lovepreet lovepreet  365 May  3 16:47 scripts/archive_logs.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1069 May  3 16:46 scripts/backup_data.sh
+-rwxr-xr-x 1 lovepreet lovepreet  501 May  3 17:22 scripts/check_server_health.sh
+-rwxr-xr-x 1 lovepreet lovepreet  332 May  3 12:53 scripts/check_tools.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1846 May  3 16:34 scripts/generate_report.sh
+-rwxr-xr-x 1 lovepreet lovepreet  389 May  3 16:13 scripts/load_env.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1209 May  3 17:44 scripts/monitor_logs.sh
+-rwxr-xr-x 1 lovepreet lovepreet  422 May  3 16:57 scripts/run_backup_cron.sh
+-rwxr-xr-x 1 lovepreet lovepreet  438 May  3 16:57 scripts/run_daily_report_cron.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1710 May  3 16:36 scripts/run_health_check.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1903 May  3 16:36 scripts/search_requests.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1376 May  3 17:48 scripts/security_audit.sh
+-rwxr-xr-x 1 lovepreet lovepreet 1421 May  3 17:39 scripts/simulate_remote_deploy.sh
+
+4. Searching for risky secret keywords:
+./scripts/simulate_remote_deploy.sh:36:CIVICAID_FAKE_API_KEY=server_fake_key_only
+./scripts/security_audit.sh:36:    echo "4. Searching for risky secret keywords:"
+./scripts/security_audit.sh:37:    grep -RniE "password|secret|api_key|token|private_key|apikey" . \
+./scripts/security_audit.sh:48:    echo "- Keep local secrets chmod 600"
+./backups/civicaid_backup_20260503_162505/app.env.example:2:# Fake/sample values only. Do not store real secrets in GitHub.
+./backups/civicaid_backup_20260503_162505/app.env.example:8:CIVICAID_FAKE_API_KEY=sample_key_do_not_use_in_production
+./backups/civicaid_backup_20260503_163751/app.env.example:2:# Fake/sample values only. Do not store real secrets in GitHub.
+./backups/civicaid_backup_20260503_163751/app.env.example:8:CIVICAID_FAKE_API_KEY=sample_key_do_not_use_in_production
+./backups/civicaid_backup_20260503_163531/app.env.example:2:# Fake/sample values only. Do not store real secrets in GitHub.
+./backups/civicaid_backup_20260503_163531/app.env.example:8:CIVICAID_FAKE_API_KEY=sample_key_do_not_use_in_production
+./backups/civicaid_backup_20260503_162930/app.env.example:2:# Fake/sample values only. Do not store real secrets in GitHub.
+./backups/civicaid_backup_20260503_162930/app.env.example:8:CIVICAID_FAKE_API_KEY=sample_key_do_not_use_in_production
+./docs/security-checklist.md:5:## Secret safety
+./docs/security-checklist.md:7:- Never commit real passwords, API keys, tokens, or private keys.
+./docs/stage-23-security-basics.md:9:- secret safety
+./docs/stage-23-security-basics.md:26:1. Checked project files for risky secret keywords.
+./docs/stage-23-security-basics.md:35:Security basics help Linux users protect secrets, avoid unsafe permissions, reduce accidental damage, and prepare projects for safer public GitHub sharing.
+./docs/stage-15-environment-path.md:3:This stage demonstrates environment variables, PATH, .bashrc, source, and secret safety using the CivicAid Linux Operations Command Center.
+./docs/stage-15-environment-path.md:21:- Real secrets should never be committed to GitHub.
+./config/app.env.example:2:# Fake/sample values only. Do not store real secrets in GitHub.
+./config/app.env.example:8:CIVICAID_FAKE_API_KEY=sample_key_do_not_use_in_production
+./config/app.env:8:CIVICAID_FAKE_API_KEY=local_fake_key_123
+[OK] No risky keywords found
+
+5. Security reminders:
+- Never commit real .env files
+- Never share private SSH keys
+- Use sudo only when needed
+- Keep scripts executable only when needed
+- Keep local secrets chmod 600
