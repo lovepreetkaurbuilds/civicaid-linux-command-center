@@ -1,0 +1,4 @@
+2026-05-03 18:30:00 [ERROR] Failed to process donation record D009
+2026-05-03 18:31:00 [WARNING] Backup folder size is growing
+2026-05-03 18:32:00 [ERROR] Missing config value CIVICAID_LOG_LEVEL
+2026-05-03 18:33:00 [INFO] Error check completed
