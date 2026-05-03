@@ -7,3 +7,7 @@ __pycache__/
 config/app.env
 *.env
 backups/civicaid_backup_*
+backups/*.tar
+backups/*.tar.gz
+backups/*.zip
+restore_test/

@@ -1,0 +1,10 @@
+total 48K
+drwxr-xr-x 5 lovepreet lovepreet 4.0K May  3 16:25 civicaid_backup_20260503_162505
+drwxr-xr-x 5 lovepreet lovepreet 4.0K May  3 16:29 civicaid_backup_20260503_162930
+drwxr-xr-x 5 lovepreet lovepreet 4.0K May  3 16:35 civicaid_backup_20260503_163531
+drwxr-xr-x 5 lovepreet lovepreet 4.0K May  3 16:37 civicaid_backup_20260503_163751
+-rw-r--r-- 1 lovepreet lovepreet 5.0K May  3 16:47 civicaid_backup_20260503_164721.tar.gz
+-rw-r--r-- 1 lovepreet lovepreet  10K May  3 16:42 civicaid_data.tar
+-rw-r--r-- 1 lovepreet lovepreet  882 May  3 16:44 civicaid_data.tar.gz
+-rw-r--r-- 1 lovepreet lovepreet 1.6K May  3 16:46 civicaid_logs.zip
+-rw-r--r-- 1 lovepreet lovepreet 1.7K May  3 16:47 civicaid_logs_20260503_164759.zip
