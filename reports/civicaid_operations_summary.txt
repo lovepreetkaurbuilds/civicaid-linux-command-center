@@ -1,0 +1,62 @@
+CivicAid Operations Summary Report
+Generated on: Sun May  3 17:56:00 UTC 2026
+==================================
+
+1. Total Records
+----------------
+Help requests: 5
+Volunteers: 5
+Donations: 5
+Service tickets: 5
+
+2. Help Requests by Category
+----------------------------
+      2 medical
+      1 shelter
+      1 food
+      1 education
+
+3. Help Requests by Status
+--------------------------
+      3 pending
+      1 resolved
+      1 in_progress
+
+4. High Urgency Pending Requests
+--------------------------------
+HR001 Aman Village Center Gurdaspur medical pending
+HR004 Kiran Rural Point Dera Baba Nanak medical pending
+
+5. Donation Total
+-----------------
+Total donations: 26000
+
+6. Donations by Method
+----------------------
+      2 upi
+      2 bank_transfer
+      1 cash
+
+7. Pending Service Tickets
+--------------------------
+T001 medicine_delivery medical high pending
+T004 temporary_shelter_request shelter high pending
+T005 donation_receipt_issue finance medium pending
+
+8. Recent Script Activity
+-------------------------
+2026-05-03 16:57:11 [generate_report] Pending service tickets added to report.
+2026-05-03 16:57:11 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 16:57:44 [backup_data] Starting compressed backup.
+2026-05-03 16:57:44 [backup_data] [OK] Compressed backup created: backups/civicaid_backup_20260503_165744.tar.gz
+2026-05-03 17:42:27 [generate_report] Starting daily report generation.
+2026-05-03 17:42:27 [generate_report] High urgency requests added to report.
+2026-05-03 17:42:27 [generate_report] Pending service tickets added to report.
+2026-05-03 17:42:27 [generate_report] [OK] Report generated: reports/daily_report.txt
+2026-05-03 17:45:40 [health_check] Starting CivicAid health check.
+2026-05-03 17:45:40 [health_check] [OK] Health check passed.
+
+9. Error Summary
+----------------
+logs/error.log:2026-05-03 18:30:00 [ERROR] Failed to process donation record D009
+logs/error.log:2026-05-03 18:32:00 [ERROR] Missing config value CIVICAID_LOG_LEVEL
